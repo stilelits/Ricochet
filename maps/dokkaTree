@@ -1,0 +1,55 @@
+BGM none
+TOP 450
+
+FLOOR: noMask Dirt
+ x -1000
+ w 3000
+ y -300
+ h 300
+END FLOOR
+
+DOOR intro6 
+ x 50
+END DOOR 
+DOOR dokka1  
+ x 930
+END DOOR
+
+WALL left low: noMask Stone
+ x -20
+ h 150
+END WALL
+CEILING left middle: noMask Stone
+ y 150
+ w 200
+END CEILING
+WALL left high: noMask Stone
+ x 200
+ y 150
+ h 150
+END WALL
+WALL right low: noMask Stone
+ x 1000
+ h 150
+END WALL
+CEILING right middle: noMask Stone
+ x 800
+ y 150
+ w 200
+END CEILING
+WALL right high: noMask Stone
+ x 800
+ y 150
+ h 150
+END WALL
+
+WALL right: noMask Stone
+ x 1000
+ h 150
+END WALL
+
+NPC DokkaTree
+ x 275
+ SCRIPT: "I am the tree of Dokka.": ENDSCRIPT
+ appendScriptFile Ygg
+END

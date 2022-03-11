@@ -1,0 +1,27 @@
+BGM none
+
+FLOOR floor: noMask Stone
+ w  200
+ y -200
+ h  200
+END
+
+WALL wall: noMask Stone
+ x  -200
+ w   200
+ h   200
+END
+
+WALLPAPER: sprite Pattern
+ z   -2
+ x -1000
+ w 5000
+ y -1000
+ h 21000
+END
+WALLPAPER: color 0x007F8000
+ x -1000
+ w 5000
+ y -1000
+ h 21000
+END

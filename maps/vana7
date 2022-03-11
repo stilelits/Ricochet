@@ -1,0 +1,50 @@
+DOOR vana6
+ x 200
+ y 2800
+END DOOR
+FLOOR : noMask Grass
+ w 400
+ y 2500
+ h 300
+END FLOOR
+FLOOR : noMask Grass
+ w 400
+ x 400
+ y 2500
+ h 300
+ slope D
+END FLOOR
+WALLPAPER: noMask Dirt
+ w 1000
+ h 3000
+END WALLPAPER
+FLOOR : noMask Grass
+ w 1000
+ y 3000
+END FLOOR
+
+FLOOR : noMask Lava
+ w 980
+ x 20
+ y -20
+END FLOOR
+WALL : noMask Grass
+ x 1000
+ y 1000
+ h 2000
+END FLOOR
+WALL : noMask Grass
+ y 1000
+ h 2000
+END FLOOR
+WALL : noMask Lava
+ x 1000
+ h 1000
+END FLOOR
+WALL : noMask Lava
+ h 1000
+END FLOOR
+
+DOOR muspel1
+ x 800
+END DOOR

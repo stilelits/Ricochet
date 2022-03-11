@@ -1,0 +1,153 @@
+BGM castle
+RIGHT 1400
+LEFT -350
+TOP 450
+
+DOOR intro3
+ x 40
+END DOOR
+DOOR intro5
+ x -150
+ y 320
+END DOOR
+
+WALL Upper Left: noMask Stone
+ h 100
+ y 300
+ x -300
+END WALL
+WALL Left: noMask Stone
+ h 300
+END WALL
+FLOOR Main floor: noMask Stone
+ x      20
+ y      -20
+ w     1200
+END FLOOR
+CEILING: noMask Stone
+ x     -300
+ y      400
+ w     1500
+END CEILING
+WALL Right: noMask Stone
+ h 400
+ x 1200
+END WALL
+
+ENEMY Saw
+ x 575
+ y 330
+ PATROL LEFT
+END SAW
+
+FLOOR: noMask Stone
+ x -300
+ w 720
+ y 300
+END FLOOR
+
+CEILING Dropdown: noMask Stone
+ x      650
+ y      300
+ h      100
+ w      550
+END CEILING
+
+ENEMY Saw
+ x 355
+ y 100
+END SAW
+
+ENEMY Saw
+ x 455
+ y 100
+END SAW
+FLOOR: noMask Stone
+ x 450
+ w 100
+ y 250
+END FLOOR
+CEILING : noMask Stone : slope ID 
+ x 500
+ y 200
+ h 50
+ w 50
+END
+
+ENEMY Saw
+ x 555
+ y 100
+END SAW
+FLOOR: noMask Stone
+ x 550
+ w 100
+ y 200
+END FLOOR
+CEILING : noMask Stone : slope ID 
+ x 600
+ y 150
+ h 50
+ w 50
+END
+
+ENEMY Saw
+ x 655
+ y 40
+END SAW
+FLOOR: noMask Stone
+ x 650
+ w 100
+ y 150
+END FLOOR
+CEILING : noMask Stone : slope ID 
+ x 700
+ y 100
+ h 50
+ w 50
+END
+FLOOR: noMask Stone
+ y 100
+ x 750
+ w 100
+END FLOOR
+
+ENEMY Saw
+ x 1025
+ y 20
+END SAW
+WALL: noMask Stone
+ x 1000
+ w 200
+ y 100
+ h 200
+END WALL
+CEILING : noMask Stone : slope ID 
+ x 950
+ y 250
+ h 50
+ w 50
+END
+
+ITEM Apple
+ x 1150
+END ITEM 
+
+NPC Fred
+ x      250
+ SCRIPT
+  IF NOT SHOT_FRED
+   "If the spiky things are moving too fast, you may be able to slow them down somehow..."
+  ELSE
+   "I was going to give you a hint, but not if you're going to shoot at me..."
+   "I mean, it's not that hard of a room, but still!"
+  ENDIF 
+ ENDSCRIPT
+ WHEN FIRST_HIT
+  "Hey, stop that!"
+  SET SHOT_FRED
+ ENDWHEN 
+END
+WALL: noMask Stone
+ h 100
+ x 300
+END WALL

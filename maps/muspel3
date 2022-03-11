@@ -1,0 +1,76 @@
+BGM volcano
+
+FLOOR : noMask Lava
+ w 1800
+ y -20
+END FLOOR
+FLOOR : noMask Lava
+ w 1800
+ y 600
+END FLOOR
+ENEMY Saw
+ x 500
+ y 500
+ PATROL LEFT
+END ENEMY
+ENEMY Saw
+ x 500
+ y 550
+ PATROL RIGHT
+END ENEMY
+ENEMY Turret
+ x 1128
+ y 200
+END ENEMY
+ENEMY Turret
+ x 900
+ y 200
+END ENEMY
+WALLPAPER : noMask Lava2
+ h 600
+ w 1800
+END WALLPAPER
+FLOOR : noMask Lava
+ w 72
+ h 72
+ x 900
+ y 128
+END FLOOR
+FLOOR : noMask Lava
+ w 72
+ h 72
+ x 1128
+ y 128
+END FLOOR
+WALL : noMask Lava
+ h 600
+END WALL
+WALL : noMask Lava
+ x 1800
+ h 600
+END WALL
+FLOOR : noMask Lava : SOLID_ON TOP: z -2: d 3
+ x 1400
+ h 200
+ w 400
+END FLOOR
+FLOOR : noMask Lava
+ h 100
+ w 700
+ y 300
+END FLOOR
+FLOOR : noMask Lava : SOLID_ON TOP: z -2: d 3
+ h 120
+ w 300
+END FLOOR
+DOOR muspel4
+ y 120
+ x 100
+END DOOR
+DOOR muspelTree
+ y 400
+ x 100
+END DOOR
+DOOR muspel2
+ x 1030
+END DOOR

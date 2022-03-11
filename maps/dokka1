@@ -1,0 +1,58 @@
+BGM town
+RIGHT 600
+LEFT -100
+BOTTOM -300
+
+CEILING : noMask Stone
+ y   400
+ w   500
+END
+
+DOOR dokkaTree 
+ x  50
+ y 200
+END
+FLOOR: noMask Dirt
+ y  -200
+ h   400
+ x  -300
+ w   450
+END
+WALL: noMask Stone
+ x   -20
+ y  200
+ h  200
+END
+
+DOOR dokkaDock
+ x     400
+END
+FLOOR: noMask Dirt
+ y  -200
+ h   200
+ x   350
+ w   450
+END
+WALL: noMask Stone
+ w 200
+ x 500
+ h 400
+END
+
+DOOR dokka2
+ x 230
+ y -200
+END
+FLOOR: noMask Dirt
+ x -1000
+ w 10000
+ y -700
+ h 500
+END FLOOR  
+
+WALLPAPER
+ y -200
+ h 600
+ w 500
+ color 0x20202020
+END WALLPAPER

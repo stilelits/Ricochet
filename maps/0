@@ -1,0 +1,6 @@
+NPC Player: uid Player
+END Player
+DOOR: uid toSaveRoom
+ dest intro1
+ destX 1000
+END DOOR

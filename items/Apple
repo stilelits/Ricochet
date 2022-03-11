@@ -1,0 +1,3 @@
+description "Restores 10 HP."
+USE 1
+HP 10

@@ -1,0 +1,54 @@
+WALLPAPER : noMask Lava2
+ w 1000
+ h 1200
+END WALLPAPER
+DOOR muspel1
+ x 900
+ y 1000
+END DOOR
+FLOOR : noMask Lava
+ w 1000
+ y 1200
+END FLOOR
+
+FLOOR : noMask Lava
+ x 100
+ w 250
+ y 850
+ h 100
+END FLOOR
+FLOOR : noMask Lava
+ x 800
+ w 200
+ h 1000
+END FLOOR
+WALL : noMask Lava
+ h 1200
+END WALL
+FLOOR : noMask Lava
+ w 1000
+ y -20
+END FLOOR 
+WALL : noMask Lava
+ x 1000
+ h 1200
+END WALL
+FLOOR : noMask Lava
+ x 500
+ w 100
+ y 650
+ h 100
+END FLOOR
+FLOOR : noMask Lava
+ x 700
+ w 100
+ h 850
+END FLOOR
+ENEMY Turret
+ x 514
+ y 750
+END ENEMY
+
+DOOR muspel3
+ x 300
+END DOOR

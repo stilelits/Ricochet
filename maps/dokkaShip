@@ -1,0 +1,51 @@
+BGM shanty
+RIGHT 480
+LEFT -100
+TOP 200
+BOTTOM -100
+
+DOOR dokkaDock
+ x     50
+ CLOSE
+ WHEN dokkaShip_TO_VANA:  dest  vanaDock:  destX 200: OPEN: ENDWHEN
+ WHEN dokkaShip_TO_DOKKA: dest dokkaDock:            OPEN: ENDWHEN
+END
+
+FLOOR: noMask Wood
+ y   -20
+ w   360
+END
+CEILING : noMask Wood
+ y   100
+ w   360
+END
+WALL: noMask Wood
+ x   -20
+ h   100
+END
+WALL: noMask Wood
+ x   360
+ h   100
+END
+WALLPAPER
+ h 100
+ w 360
+ color 0x0064331E
+END WALLPAPER
+
+NPC Skippy
+ x 300
+ SCRIPT
+  OPTIONBOX "Where would you like to go?"
+  OPTION "Dokka"
+   "But that's where we already are..."
+   SET dokkaShip_TO_DOKKA
+  OPTION "Vana"
+   "..."
+   "....."
+   ".........."
+   "Okay, we've arrived."
+   SET dokkaShip_TO_VANA
+  ENDOPTIONBOX
+ ENDSCRIPT
+END NPC  

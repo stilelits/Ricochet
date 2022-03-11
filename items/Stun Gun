@@ -1,0 +1,4 @@
+description "Temporarily stuns opponents without damaging them."
+AMMO NORMAL
+DAM 0
+LH

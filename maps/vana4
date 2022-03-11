@@ -1,0 +1,49 @@
+WALLPAPER: noMask Dirt
+ w 300
+ h 650
+END WALLPAPER
+FLOOR : noMask Grass
+ w 300
+ y 650
+END FLOOR
+FLOOR : noMask Grass
+ w 280
+ x 20
+ y -20
+END FLOOR
+WALL : noMask Grass
+ x 300
+ h 650
+END FLOOR
+WALL : noMask Grass
+ h 650
+END FLOOR
+DOOR vanaTown
+ x 130
+END DOOR
+
+FLOOR : noMask Grass: SOLID_ON TOP: z -2: d 3
+ w 300
+ y 100
+END FLOOR
+FLOOR : noMask Grass: SOLID_ON TOP: z -2: d 3
+ w 300
+ y 200
+END FLOOR
+FLOOR : noMask Grass: SOLID_ON TOP: z -2: d 3
+ w 300
+ y 300
+END FLOOR
+FLOOR : noMask Grass: SOLID_ON TOP: z -2: d 3
+ w 300
+ y 400
+END FLOOR
+FLOOR : noMask Grass: SOLID_ON TOP: z -2: d 3
+ w 300
+ y 500
+END FLOOR
+DOOR vana5
+ x 100
+ y 520
+END DOOR
+

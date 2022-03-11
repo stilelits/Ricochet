@@ -1,0 +1,127 @@
+BGM town
+
+WALL : noMask Stone
+ h 600
+END WALL
+CEILING : noMask Stone
+ y   600
+ w   1500
+END
+DOOR dokka2
+ x 100
+END
+FLOOR : noMask Stone
+ x 1000
+ w 500
+ y 300
+END FLOOR
+WALL : noMask Stone
+ y 300
+ h 300
+ x 1500
+END WALL
+WALL : noMask Stone
+ h 300
+ x 1000
+END WALL
+WALLPAPER:  color 0x20202020
+ x 1000
+ y 300
+ w 500
+ h 300
+END WALLPAPER
+WALLPAPER:  color 0x20202020
+ w 1000
+ h 600
+END WALLPAPER
+
+ENTITY : noMask Bookcase: SOLID_ON TOP: z -2: d 3: interact 0
+ w 60
+ h 100
+ x 300
+ SCRIPT
+  "Books."
+ ENDSCRIPT
+END BOOKCASE
+ENTITY : noMask Bookcase: SOLID_ON TOP: z -2: d 3: interact 0
+ w 60
+ h 100
+ x 450
+ SCRIPT
+  "More books."
+ ENDSCRIPT
+END BOOKCASE
+ENTITY : noMask Bookcase: SOLID_ON TOP: z -2: d 3: interact 0
+ w 60
+ h 100
+ x 600
+ SCRIPT
+  "Other books."
+ ENDSCRIPT
+END BOOKCASE
+ENTITY : noMask Bookcase: SOLID_ON TOP: z -2: d 3: interact 0
+ w 60
+ h 100
+ x 750
+ SCRIPT
+  "Still books."
+ ENDSCRIPT
+END BOOKCASE
+ENTITY : noMask Bookcase: SOLID_ON TOP: z -2: d 3: interact 0
+ w 60
+ h 100
+ x 900
+ SCRIPT
+  IF NOT READ_HAMSTERS
+   "Hamsters."
+   SET READ_HAMSTERS
+  ELSEIF NOT HAMSTERS_KIDDING
+   "Just kidding, it's books."
+   SET HAMSTERS_KIDDING
+  ELSE
+   "It's books." 
+  ENDIF
+ ENDSCRIPT
+END BOOKCASE
+
+ENTITY : noMask Bookcase: SOLID_ON TOP: z -2: d 3: interact 0
+ w 60
+ h 100
+ y 320
+ x 1100
+ SCRIPT
+  "Another books."
+ ENDSCRIPT
+END BOOKCASE
+ENTITY : noMask Bookcase: SOLID_ON TOP: z -2: d 3: interact 0
+ w 60
+ h 100
+ y 320
+ x 1250
+ SCRIPT
+  "Books?"
+ ENDSCRIPT
+END BOOKCASE
+ENTITY : noMask Bookcase: SOLID_ON TOP: z -2: d 3: interact 0
+ w 60
+ h 100
+ y 320
+ x 1400
+ SCRIPT
+  "Boooooks."
+ ENDSCRIPT
+END BOOKCASE
+
+FLOOR : invisible
+ y  -200
+ h  200
+ x -1000
+ w  4000
+END
+WALLPAPER: noMask Dirt
+ x -1000
+ w 4000
+ y -1000
+ h 2000
+ z -10
+END WALLPAPER

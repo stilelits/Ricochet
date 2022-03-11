@@ -1,0 +1,56 @@
+BGM castle
+TOP 400
+BOTTOM 0
+ 
+DOOR intro4
+ x 730
+ y 320
+END DOOR
+DOOR intro6 
+ x 130
+ y 120
+END DOOR
+
+WALL Left: noMask Stone
+ x -20
+ h 400
+END WALL
+CEILING: noMask Stone
+ w 800
+ y 400
+END CEILING
+FLOOR Main: noMask Stone
+ w 800
+ y -20
+END FLOOR
+
+FLOOR: noMask Stone
+ SOLID_ON TOP: z -2: d 3
+ x 100
+ w 100
+ y 100
+END FLOOR
+FLOOR: noMask Stone
+ SOLID_ON TOP: z -2: d 3
+ x 300
+ w 100
+ y 100
+END FLOOR
+FLOOR: noMask Stone
+ SOLID_ON TOP: z -2: d 3
+ x 500
+ w 100
+ y 100
+END FLOOR
+FLOOR: noMask Stone
+ SOLID_ON TOP: z -2: d 3
+ x 700
+ w 100
+ y 100
+END FLOOR
+WALL Right: noMask Stone
+ x 800
+ h 400
+END WALL
+
+ENEMY Grunt: END

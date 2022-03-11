@@ -1,0 +1,63 @@
+DOOR vanaDock
+ x 340
+END DOOR
+WALLPAPER:  color 0x20202020
+ z -9
+ w 700
+ h 500
+END WALLPAPER
+WALL: noMask Dirt
+ h 500
+ x -20
+END WALL
+FLOOR : noMask Grass
+ w 700
+ y 500
+END FLOOR 
+FLOOR : noMask Dirt
+ w 700
+ y -20
+END FLOOR 
+WALL: noMask Dirt
+ h 500
+ x 700
+END WALL
+DOOR vana3
+ x 330
+ y 400
+END DOOR
+FLOOR: noMask Dirt: SOLID_ON TOP: z -2: d 3
+ x 300
+ y 380
+ w 100
+END FLOOR
+FLOOR: noMask Dirt: SOLID_ON TOP: z -2: d 3
+ x 200
+ y 280
+ w 100
+END FLOOR
+FLOOR: noMask Dirt: SOLID_ON TOP: z -2: d 3
+ x 400
+ y 280
+ w 100
+END FLOOR
+FLOOR: noMask Dirt: SOLID_ON TOP: z -2: d 3
+ x 100
+ y 180
+ w 100
+END FLOOR
+FLOOR: noMask Dirt: SOLID_ON TOP: z -2: d 3
+ x 500
+ y 180
+ w 100
+END FLOOR
+FLOOR: noMask Dirt: SOLID_ON TOP: z -2: d 3
+ x 0
+ y 80
+ w 100
+END FLOOR
+FLOOR: noMask Dirt: SOLID_ON TOP: z -2: d 3
+ x 600
+ y 80
+ w 100
+END FLOOR

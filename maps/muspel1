@@ -1,0 +1,61 @@
+BGM volcano
+
+DOOR vana7
+ x 100
+END DOOR
+FLOOR: noMask Lava
+ w 1400
+ y -20
+END FLOOR
+FLOOR: noMask Lava
+ w 400
+ y 200
+END FLOOR
+WALL: noMask Lava
+ h 200
+END WALL
+WALLPAPER: noMask Lava2
+ w 400
+ h 200
+END WALLPAPER
+WALLPAPER: noMask Lava2
+ x 400
+ w 1000
+ h 1000
+END WALLPAPER
+FLOOR: noMask Lava
+ x 400
+ w 1000
+ y 1000
+END FLOOR
+WALL: noMask Lava
+ h 800
+ y 200
+ x 400
+END WALL
+WALL: noMask Lava
+ h 1000
+ x 1400
+END WALL
+FLOOR: noMask Lava
+ x 400
+ w 800
+ h 200
+ y 350
+END FLOOR
+
+FLOOR: noMask Lava
+ x 500
+ w 400
+ y 750
+ h 100
+END FLOOR
+DOOR muspel2
+ x 800
+ y 850
+END DOOR
+
+ITEM "Stylish Boots": sprite Boots
+ x 1250
+ h 40
+END ITEM

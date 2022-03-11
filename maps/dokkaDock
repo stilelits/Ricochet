@@ -1,0 +1,98 @@
+BGM town
+LEFT -100
+BOTTOM -100
+
+DOOR dokka1
+ x     50
+END
+FLOOR: noMask Dirt
+ x -200
+ w  500
+ y -200
+ h  200
+END
+
+WALL: noMask Stone
+ x  -200
+ w   200
+ y  -200
+ h   620
+END
+WALLPAPER
+ h 420
+ w 300
+ slope D
+ color 0x20202020
+END WALLPAPER
+
+
+DOOR dokkaShip
+ x     600
+ CLOSE
+ IF TalkedTo_QUEEN
+  OPEN
+ ENDIF
+END
+FLOOR: noMask Wood
+ y   -50
+ h    50
+ x   350
+ w   100
+ slope ID
+END WALLPAPER
+FLOOR: noMask Wood
+ y   -150
+ h    100
+ x   450
+ w   550
+ slope ID
+END WALLPAPER
+FLOOR: noMask Wood
+ y   -50
+ h    50
+ x   450
+ w   550
+END WALLPAPER
+FLOOR: noMask Wood
+ SOLID_ON TOP: z -2: d 3
+ x 550
+ w 400
+ h 120
+END FLOOR
+WALLPAPER: noMask Wood
+ x 800
+ y 120
+ h 400
+END WALLPAPER
+WALLPAPER: color 0x00800000
+ x 550
+ w 250
+ h 350
+ y 170
+ slope U
+END WALLPAPER
+WALLPAPER: color 0x00800000
+ x 820
+ w 130
+ h 350
+ y 170
+ slope D
+END WALLPAPER
+
+
+WALLPAPER: noMask Water
+ x -1000
+ w 10000
+ y -1020
+ h  1000
+ z -10
+END WALLPAPER
+
+WALLPAPER: color 0x002300B2
+ x -1000
+ w 10000
+ y -20
+ h 1000
+ z -9
+END WALLPAPER
+

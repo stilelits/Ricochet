@@ -1,0 +1,31 @@
+DOOR muspel3
+ x     50
+END
+
+FLOOR: noMask Lava
+ y   -20
+ w   300
+END
+CEILING : noMask Lava
+ y   300
+ w   300
+END
+WALL: noMask Lava
+ x   300
+ h   300
+END
+WALL: noMask Lava
+ x   -20
+ h   300
+END
+
+WALLPAPER : noMask Lava2
+ h 300
+ w 300
+END WALLPAPER
+
+ITEM Shield
+ x 250
+ w 29
+ h 29
+END ITEM

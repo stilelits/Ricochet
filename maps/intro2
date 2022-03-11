@@ -1,0 +1,35 @@
+BGM castle
+RIGHT 400
+LEFT -100
+TOP 350
+BOTTOM -100
+
+DOOR intro1
+ x     50
+END
+
+FLOOR: noMask Stone
+ y   -20
+ w   300
+END
+CEILING : noMask Stone
+ y   300
+ w   300
+END
+WALL: noMask Stone
+ x   300
+ h   300
+END
+WALL: noMask Stone
+ x   -20
+ h   300
+END
+
+WALLPAPER
+ h 300
+ w 300
+ color 0x20202020
+END WALLPAPER
+SWITCH openDoorInIntro1
+ x   250
+END 

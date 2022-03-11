@@ -1,0 +1,25 @@
+
+NPC Player: uid Player
+INV "Apple"
+INV "Stun Gun"
+LH 1
+INV "Stylish Boots"
+ACC 2
+INV "Shield"
+RH 3
+END Player
+DOOR: uid toSaveRoom
+ dest muspelTree
+ destX -207
+ destY 0
+ destZ 0
+END DOOR
+SET HAS_Apple 1
+SET HAS_Stun_Gun 1
+SET HAS_Stylish_Boots 1
+SET SHOT_FRED 1
+SET intro1_98_PLOT_DESTROYED 1
+SET intro3Switch1 1
+SET intro3_58_PLOT_DESTROYED 1
+SET muspel1_68_PLOT_DESTROYED 1
+SET openDoorInIntro1 1

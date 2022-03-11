@@ -1,0 +1,26 @@
+WALLPAPER: noMask Dirt
+ w 300
+ h 150
+END WALLPAPER
+FLOOR : noMask Grass
+ w 300
+ y 150
+END FLOOR
+FLOOR : noMask Grass
+ w 280
+ x 20
+ y -20
+END FLOOR
+WALL : noMask Grass
+ x 300
+ h 150
+END FLOOR
+WALL : noMask Grass
+ h 150
+END FLOOR
+DOOR vanaTown
+ x 200
+END DOOR
+DOOR vana4
+ x 100
+END DOOR

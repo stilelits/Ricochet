@@ -1,0 +1,4 @@
+description "Does 5 more damage than a stun gun."
+AMMO NORMAL
+DAM 5
+LH

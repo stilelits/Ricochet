@@ -1,0 +1,104 @@
+BGM castle
+
+DOOR intro5
+ x 130
+END DOOR
+DOOR dokkaTree
+ x 730
+END DOOR
+
+ITEM Apple
+ x -200
+END ITEM 
+WALLPAPER In tower
+ h   950
+ w   300
+ z   -3
+ sprite Pattern
+END
+WALLPAPER In tower
+ h   950
+ w   300
+ color 0x00AFA000
+END
+
+FLOOR: noMask Dirt
+ y -1000
+ h 1000
+ x -400
+ w 1300
+END Dirt
+WALLPAPER Sky
+ h  10000
+ y -5000
+ x -5000
+ w  10000
+ z   -10
+ color   0x002300B2
+END
+WALL left: noMask Stone
+ x -20
+ h 950
+END WALL
+FLOOR main: noMask Stone
+ y -20
+ x 0
+ w 300
+ z 2
+END FLOOR
+WALL Castle: SOLID_ON TOP: z -2: d 3
+ x 650
+ w 200
+ h 100
+ z   -2
+ noMask Stone
+END
+WALL Castle: SOLID_ON TOP: z -2: d 3
+ x 700
+ w 100
+ h 50
+ y 100
+ z   -2
+ noMask Stone
+END
+WALL right: noMask Stone
+ x 300
+ h 950
+END WALL
+FLOOR platform: noMask Stone
+ SOLID_ON TOP: z -2: d 3
+ y 150
+ w 100
+END FLOOR
+FLOOR platform: noMask Stone
+ SOLID_ON TOP: z -2: d 3
+ y 300
+ x 200
+ w 100
+END FLOOR
+FLOOR platform: noMask Stone
+ SOLID_ON TOP: z -2: d 3
+ y 450
+ w 100
+END FLOOR
+FLOOR platform: noMask Stone
+ SOLID_ON TOP: z -2: d 3
+ y 600
+ x 200
+ w 100
+END FLOOR
+FLOOR platform: noMask Stone
+ SOLID_ON TOP: z -2: d 3
+ y 750
+ w 100
+END FLOOR
+ENEMY Saw
+ PATROL LEFT
+ y 355
+ x 110
+END Saw
+ENEMY Saw
+ PATROL RIGHT
+ y 655
+ x 110
+END Saw

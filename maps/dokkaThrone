@@ -1,0 +1,66 @@
+BGM town
+
+WALL : noMask Stone
+ h 300
+END WALL
+CEILING : noMask Stone
+ y   300
+ w   1000
+END
+DOOR dokka2
+ x 900
+END
+FLOOR: color 0x00800000: SOLID_ON TOP: z -2: d 3
+ x 100
+ w 400
+END FLOOR
+FLOOR: color 0x00800000: SOLID_ON TOP: z -2: d 3
+ x 200
+ y 20
+ w 200
+END FLOOR
+NPC Queen
+ x 350
+ y 40
+ SCRIPT
+  "I am the queen of this castle."
+  "(There are supposed to be more people here, and I'm supposed to give you quests to do, but none of that is programmed in yet.)"
+  "For now, why don't you just take my boat across the ocean to the next realm and see what Vana is like?"
+  SET TalkedTo_QUEEN
+ ENDSCRIPT
+END NPC
+WALLPAPER: sprite Throne
+ y 40
+ x 240
+ w 44
+ h 60
+ z -4
+END WALLPAPER
+FLOOR: invisible:  SOLID_ON TOP: z -2: d 3
+ y 40
+ x 244
+ w 36
+ h 20
+END WALLPAPER
+
+FLOOR : invisible
+ y  -200
+ h  200
+ x -1000
+ w  4000
+END
+WALL : noMask Stone
+ h 300
+ x 1000
+END WALL
+WALLPAPER:  color 0x20202020
+ w 1000
+ h 300
+END WALLPAPER
+WALLPAPER: noMask Dirt
+ x -1000
+ w 4000
+ y -1000
+ h 2000
+ z -10
+END WALLPAPER

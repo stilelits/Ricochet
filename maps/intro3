@@ -1,0 +1,124 @@
+BGM castle
+TOP 350
+
+DOOR intro1
+ x     2400
+END
+DOOR intro4
+ x 1350
+ CLOSE
+ WHEN intro3Switch1 = 1: OPEN:  ENDWHEN
+ WHEN intro3Switch1 = 0: CLOSE: ENDWHEN
+END DOOR
+
+FLOOR mainFloor: noMask Stone
+ x      20
+ y      -20
+ w      2480
+END
+WALL Left: noMask Stone
+ h 320
+END 
+WALL Right: noMask Stone
+ x 2500
+ h 320
+END 
+CEILING leftTopCorner: noMask Stone : slope IU 
+ x 20
+ y 270
+ h 50
+ w 50
+END
+CEILING mainCeiling: noMask Stone
+ x      20
+ y      320
+ w      2480
+END
+CEILING rightTopCorner: noMask Stone : slope ID 
+ x 2450
+ y 270
+ h 50
+ w 50
+END
+
+IF NOT HAS_Stun_Gun
+ ITEM "Stun Gun": sprite Gun
+  PERMANENT
+  x 240
+  y 40
+ END ITEM
+ENDIF
+  
+FLOOR downFromGun: noMask Stone : slope U 
+ x 100
+ h 40
+ w 100
+END
+FLOOR underGun : noMask Stone
+ x 200
+ h 40
+ w 100
+END FLOOR
+FLOOR upToGun: noMask Stone : slope D
+ x 300
+ h 40
+ w 100
+END
+
+SWITCH intro3Switch1
+ x 1150
+ y 250
+END
+FLOOR leftOfSwitch1: noMask Stone
+ x 1100
+ y 220
+ h 40
+END
+FLOOR underSwitch1: noMask Stone
+ x 1100
+ y 220
+ w 100
+END
+FLOOR rightOfSwitch1: noMask Stone
+ x 1200
+ y 220
+ h 40
+END
+
+WALLPAPER Wallpaper
+ h   320
+ w   2480
+ x   20
+ z   -2
+ sprite Pattern
+END
+WALLPAPER Wallpaper
+ h   320
+ x   0
+ w   500
+ color   0x00001000
+END
+WALLPAPER Wallpaper
+ h   320
+ x   500
+ w   500
+ color   0x00002000
+END
+WALLPAPER Wallpaper
+ h   320
+ x   1000
+ w   500
+ color   0x00004000
+END
+WALLPAPER Wallpaper
+ h   320
+ x   1500
+ w   500
+ color   0x007F8000
+END
+WALLPAPER Wallpaper
+ h   320
+ x   2000
+ w   500
+ color   0x00008000
+END

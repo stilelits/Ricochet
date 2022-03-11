@@ -1,0 +1,33 @@
+BGM castle
+
+DOOR vanaTown
+ x 100
+END DOOR
+FLOOR: noMask Ice
+ w 400
+ y -20
+END FLOOR
+FLOOR: noMask Ice
+ w 400
+ y 200
+END FLOOR
+WALL: noMask Ice
+ h 200
+END WALL
+WALL: noMask Ice
+ x 400
+ h 200
+END WALL
+WALLPAPER: noMask Ice2
+ w 400
+ h 200
+END WALLPAPER
+
+NPC
+ x 300
+ SCRIPT
+  "That's all there is to the game so far..."
+  "I guess that means you win!"
+  JUMP
+ ENDSCRIPT
+END  

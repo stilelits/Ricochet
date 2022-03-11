@@ -1,0 +1,23 @@
+DOOR muspel5
+ x     50
+END
+
+FLOOR: noMask Lava
+ w 500
+ y -20
+END FLOOR
+
+ITEM Machine
+ x 400
+END ITEM
+
+WALLPAPER: noMask Lava2
+ w 500
+ h 200
+END WALLPAPER
+WALLPAPER: noMask Lava3
+ x -2000
+ w 4000
+ y -1000
+ h 1000
+END WALLPAPER

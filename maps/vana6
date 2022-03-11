@@ -1,0 +1,28 @@
+BGM Town
+
+WALLPAPER: noMask Dirt
+ w 1000
+ h 200
+END WALLPAPER
+FLOOR : noMask Grass
+ w 1000
+ y 200
+END FLOOR
+FLOOR : noMask Grass
+ w 980
+ x 20
+ y -20
+END FLOOR
+WALL : noMask Grass
+ x 1000
+ h 200
+END FLOOR
+WALL : noMask Grass
+ h 200
+END FLOOR
+DOOR vanaTown
+ x 800
+END DOOR
+DOOR vana7
+ x 200
+END DOOR

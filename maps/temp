@@ -1,0 +1,9 @@
+ITEM "Stun Gun": sprite Gun
+ x 150
+END ITEM
+ITEM Gun: sprite Gun
+ x 200
+END ITEM
+ITEM Cannon: sprite Gun
+ x 250
+END ITEM
