@@ -1,0 +1,7 @@
+PATROL
+maxDx 3
+RH Gun
+ai defensive
+SCRIPT
+ "Please don't hurt me!"
+ENDSCRIPT 

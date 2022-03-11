@@ -1,0 +1,6 @@
+w 72
+h 72
+ai turret
+TARGET Player
+immobile
+RH Cannon

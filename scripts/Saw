@@ -1,0 +1,6 @@
+w 40
+h 40
+weightless
+hurtOnTouch
+PATROL DOWN
+spriteSpeed .1

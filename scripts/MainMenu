@@ -1,0 +1,13 @@
+OPTIONBOX         
+ OPTION "New Game" 
+  "Interact:   W
+   Move left:  A
+   Move right: D
+   Jump:       Space
+   Menu:       Esc " NOFADE                                                                        
+  NEWGAME                                                            
+ OPTION "Load Game"                                               
+  LOADGAME                                                                 
+ OPTION "Quit Game" DEFAULT                                              
+  MAKEQUITSCREEN                                                          
+ENDOPTIONBOX                                                            

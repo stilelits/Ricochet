@@ -1,0 +1,7 @@
+PATROL
+maxDx 3
+RH Gun
+ai neutral
+SCRIPT
+ "..."
+ENDSCRIPT 

@@ -1,0 +1,7 @@
+PATROL
+maxDx 3
+RH Gun
+ai aggressive
+SCRIPT
+ "Prepare to die!!"
+ENDSCRIPT 

@@ -1,0 +1,5 @@
+OPTIONBOX "Are you sure you want to quit?" CASCADE
+OPTION "Yes"
+QUIT
+OPTION "No" DEFAULT
+ENDOPTIONBOX

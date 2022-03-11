@@ -1,0 +1,14 @@
+immobile
+z 1
+y -50
+w 450
+h 450
+sprite Tree
+SCRIPT
+ HEAL Player
+ OPTIONBOX "Would you like to save your game?"
+  OPTION "Yes"
+   SAVEGAME
+  OPTION "No"
+ ENDOPTIONBOX 
+ENDSCRIPT
